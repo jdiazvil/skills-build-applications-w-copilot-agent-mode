@@ -4,3 +4,4 @@ django-admin startproject octofit_tracker octofit-tracker/backend
 cd octofit-tracker/backend
 python octofit-tracker/backend/manage.py makemigrations
 python octofit-tracker/backend/manage.py migrate
+python octofit-tracker/backend/manage.py populate_db
